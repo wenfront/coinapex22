@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- style -->
+    <link rel="stylesheet" href="style/style.css" />
+    <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- icon -->
+    <link rel="icon" href="src/icon.jpg" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "2.0";
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        "script",
+        "https://connect.facebook.net/en_US/fbevents.js"
+      );
+      fbq("init", "1211799346681320");
+      fbq("track", "PageView");
+    </script>
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=1211799346681320&ev=PageView&noscript=1"
+    /></noscript>
+    <title>CoinApex: The crypto trading platform trusted by millions</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header
+      class="fixed top-0 left-0 w-full border-b-[1px] bg-white shadow-md z-40"
+    >
+      <div class="max-w-[1280px] m-auto px-4">
+        <div class="flex justify-between items-center gap-2 py-2">
+          <div class="text-[35px] font-medium">CoinApex</div>
+          <div class="md:flex gap-2 flex-wrap items-center hidden">
+            <a
+              href="#"
+              class="hover:bg-slate-200 py-1 px-3 rounded-md text-gray-600 font-medium hover:text-black"
+              >Buy Crypto
+            </a>
+            <a
+              href="#"
+              class="hover:bg-slate-200 py-1 px-3 rounded-md text-gray-600 font-medium hover:text-black"
+              >Prices</a
+            >
+            <a
+              href="#"
+              class="hover:bg-slate-200 py-1 px-3 rounded-md text-gray-600 font-medium hover:text-black"
+              >Trade</a
+            >
+            <a
+              href="#"
+              class="hover:bg-slate-200 py-1 px-3 rounded-md text-gray-600 font-medium hover:text-black"
+              >Staking</a
+            >
+            <a
+              href="#"
+              class="hover:bg-slate-200 py-1 px-3 rounded-md text-gray-600 font-medium hover:text-black"
+              >Pay</a
+            >
+          </div>
+          <button
+            onclick="url()"
+            class="font-medium text-[20px] bg-yellow-500 hover:bg-yellow-400 px-6 py-1 rounded-md text-gray-600"
+          >
+            Join
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- hero -->
+    <section class="mt-32">
+      <div class="max-w-[1280px] m-auto px-4">
+        <div
+          class="grid md:grid-cols-2 grid-cols-1 gap-8 text-center items-center"
+        >
+          <div class="">
+            <h1 class="text-[37px] font-medium leading-tight">
+              Buy, Sell & Trade Cryptocurrencies
+            </h1>
+            <p class="pt-3 text-[20px] text-gray-600">
+              Securely buy crypto and earn rewards with Binance.US. Sign up
+              today to trade Bitcoin for free on select pairs.
+            </p>
+          </div>
+          <div class="flex justify-end">
+            <video width="100%" height="100%" controls autoplay muted>
+              <source src="video/hero-video.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hero -->
+
+    <!-- BuyCrypto -->
+    <section class="mt-20">
+      <div class="max-w-[1280px] m-auto px-4">
+        <div class="text-center">
+          <h1 class="text-[34px] font-medium">Buy CryptoInMinutes</h1>
+          <p class="pt-3 text-[20px] text-gray-600">
+            Sign up today to buy and sell 150+ cryptocurrencies.
+          </p>
+        </div>
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 pt-20">
+          <article class="border-[1px] text-center p-8 rounded-lg group">
+            <div class="pb-2">
+              <i
+                class="fa-solid fa-user text-[32px] group-hover:text-yellow-500"
+              ></i>
+            </div>
+            <div class="">
+              <h2 class="text-[32px] font-medium pb-2">Ready</h2>
+              <p>Create your free Binance.US account in seconds</p>
+            </div>
+          </article>
+          <article class="border-[1px] text-center p-8 rounded-lg group">
+            <div class="pb-2">
+              <i
+                class="fa-solid fa-house text-[32px] group-hover:text-yellow-500"
+              ></i>
+            </div>
+            <div class="">
+              <h2 class="text-[32px] font-medium pb-2">Set</h2>
+              <p>Make a deposit to your account</p>
+            </div>
+          </article>
+          <article class="border-[1px] text-center p-8 rounded-lg group">
+            <div class="pb-2">
+              <i
+                class="fa-solid fa-sack-dollar text-[32px] group-hover:text-yellow-500"
+              ></i>
+            </div>
+            <div class="">
+              <h2 class="text-[32px] font-medium pb-2">Buy</h2>
+              <p>Buy crypto in a tap</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- end of BuyCrypto -->
+
+    <!-- Trade like a pro -->
+    <section class="pt-20">
+      <div class="max-w-[1280px] m-auto px-4">
+        <div class="grid md:grid-cols-2 grid-cols-1 gap-8 items-center pb-20">
+          <div class="">
+            <h2 class="text-[34px] font-medium text-center">
+              Trade like a pro
+            </h2>
+            <p>
+              Make smarter trades with deep liquidity, powerful charting
+              capabilities, and ultra-low fees you won’t find on other crypto
+              exchanges. Our scalable trading solutions are built for everyone
+              from active traders to institutional-grade API traders.
+            </p>
+          </div>
+          <div class="bg-yellow-500 pt-8 px-4 rounded-t-xl">
+            <div class="flex justify-center m-auto">
+              <div class="w-[300px] h-[420px] overflow-hidden">
+                <img src="src/1.webp" alt="" class="w-full" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid md:grid-cols-2 grid-cols-1 gap-8 items-center">
+          <div class="bg-yellow-500 pt-8 px-4 rounded-t-xl">
+            <div class="flex justify-center m-auto">
+              <div class="w-[300px] h-[420px] overflow-hidden">
+                <img src="src/2.webp" alt="" class="w-full" />
+              </div>
+            </div>
+          </div>
+          <div class="">
+            <h2 class="text-[34px] font-medium text-center">
+              Build Your Portfolio With Staking
+            </h2>
+            <p>
+              Start staking ETH, BNB, and ADA, alongside 15+ Proof-of-Stake
+              cryptocurrencies. Support your favorite projects and help secure
+              their respective blockchain networks.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of Trade like a pro -->
+
+    <!-- Best British -->
+    <section class="pt-20">
+      <div class="max-w-[1280px] m-auto px-4">
+        <h2 class="text-[34px] font-medium text-center">Best British Actors</h2>
+        <div class="flex flex-col gap-4 items-center pt-6">
+          <article
+            class="grid md:grid-cols-2 grid-cols-1 items-center border-[1px] p-3 gap-4"
+          >
+            <div
+              class="flex md:flex-row flex-col md:justify-start justify-center items-center gap-4"
+            >
+              <div class="w-[100px] rounded-full overflow-hidden">
+                <img src="src/Benedict Cumberbatch.jpg" alt="" class="w-full" />
+              </div>
+              <p class="text-[20px] font-medium">Benedict Cumberbatch</p>
+            </div>
+            <p class="text-gray-500">
+              Benedict Timothy Carlton Cumberbatch CBE (born 19 July 1976) is an
+              English actor. Known for his work on screen and stage
+            </p>
+          </article>
+          <article
+            class="grid md:grid-cols-2 grid-cols-1 items-center border-[1px] p-3 gap-4"
+          >
+            <div
+              class="flex md:flex-row flex-col md:justify-start justify-center items-center gap-4"
+            >
+              <div class="w-[100px] rounded-full overflow-hidden">
+                <img src="src/Emma Watson.jpg" alt="" class="w-full" />
+              </div>
+              <p class="text-[20px] font-medium">Emma Watson</p>
+            </div>
+            <p class="text-gray-500">
+              Emma Charlotte Duerre Watson (born 15 April 1990) is an English
+              actress. Known for her roles in both blockbusters and independent
+              film
+            </p>
+          </article>
+          <article
+            class="grid md:grid-cols-2 grid-cols-1 items-center border-[1px] p-3 gap-4"
+          >
+            <div
+              class="flex md:flex-row flex-col md:justify-start justify-center items-center gap-4"
+            >
+              <div class="w-[100px] rounded-full overflow-hidden">
+                <img src="src/Tom Hiddleston.webp" alt="" class="w-full" />
+              </div>
+              <p class="text-[20px] font-medium">Tom Hiddleston</p>
+            </div>
+            <p class="text-gray-500">
+              Thomas William Hiddleston (born 9 February 1981) is an English
+              actor. He gained international fame portraying Loki in the Marvel
+              Cinematic Universe
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- end of Best British -->
+
+    <!-- WhyBinance.US -->
+    <section class="pt-20">
+      <div class="max-w-[1280px] m-auto px-4">
+        <div>
+          <h2 class="md:text-[34px] text-[27px] font-medium text-center">
+            WhyBinance.US
+          </h2>
+          <p class="pt-3 text-[20px] text-gray-600 text-center">
+            Unlike other crypto exchanges, we charge 0% transaction fees when
+            you buy or trade Bitcoin on select pairs, and we offer some of the
+            lowest fees on cryptocurrencies you love.
+          </p>
+          <div
+            class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 items-center pt-10"
+          >
+            <article class="border-[1px] text-center p-8 rounded-lg group">
+              <div class="pb-4">
+                <i
+                  class="fa-solid fa-lightbulb text-[32px] group-hover:text-yellow-500"
+                ></i>
+              </div>
+              <div class="">
+                <h2 class="text-[32px] font-medium pb-2">Simple</h2>
+                <p>
+                  Discover the easy way to buy, sell, trade, and stake crypto.
+                </p>
+              </div>
+            </article>
+            <article class="border-[1px] text-center p-8 rounded-lg group">
+              <div class="pb-4">
+                <i
+                  class="fa-regular fa-circle-check text-[32px] group-hover:text-yellow-500"
+                ></i>
+              </div>
+              <div class="">
+                <h2 class="text-[32px] font-medium pb-2">Secure</h2>
+                <p>
+                  Keep your crypto safe and secure with our industry-leading
+                  security program.
+                </p>
+              </div>
+            </article>
+            <article class="border-[1px] text-center p-8 rounded-lg group">
+              <div class="pb-4">
+                <i
+                  class="fa-solid fa-gift text-[32px] group-hover:text-yellow-500"
+                ></i>
+              </div>
+              <div class="">
+                <h2 class="text-[32px] font-medium pb-2">Rewarding</h2>
+                <p>
+                  Pocket more crypto with 0%-fee BTC trading* and double-digit
+                  staking rewards.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of WhyBinance.US -->
+
+    <!-- Trusted -->
+    <section class="mt-20 bg-black">
+      <div class="max-w-[1280px] m-auto px-4">
+        <div class="text-white py-14">
+          <h2 class="md:text-[34px] text-[27px] font-medium text-center">
+            Trusted By Millions Of People
+          </h2>
+          <div
+            class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 items-center pt-10"
+          >
+            <article
+              class="border-[1px] text-center p-8 rounded-lg bg-[#292931]"
+            >
+              <div class="pb-4">
+                <i
+                  class="fa-solid fa-arrow-trend-up text-[32px] text-yellow-500"
+                ></i>
+              </div>
+              <div class="">
+                <h2 class="text-[32px] font-medium pb-2">5,660+</h2>
+                <p class="text-gray-500">5,660 convert trade pairs supported</p>
+              </div>
+            </article>
+            <article
+              class="border-[1px] text-center p-8 rounded-lg bg-[#292931]"
+            >
+              <div class="pb-4">
+                <i class="fa-solid fa-coins text-[32px] text-yellow-500"></i>
+              </div>
+              <div class="">
+                <h2 class="text-[32px] font-medium pb-2">150+</h2>
+                <p class="text-gray-500">Cryptocurrencies fully supported</p>
+              </div>
+            </article>
+            <article
+              class="border-[1px] text-center p-8 rounded-lg bg-[#292931]"
+            >
+              <div class="pb-4">
+                <i
+                  class="fa-solid fa-envelope-open-text text-[32px] text-yellow-500"
+                ></i>
+              </div>
+              <div class="">
+                <h2 class="text-[32px] font-medium pb-2">#1</h2>
+                <p class="text-gray-500">Largest U.S. staking platform</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of Trusted -->
+
+    <!-- CryptoIsCalling -->
+    <section class="pt-20">
+      <div class="max-w-[1280px] m-auto px-4">
+        <div>
+          <h2 class="md:text-[34px] text-[27px] font-medium text-center">
+            CryptoIsCalling
+          </h2>
+          <p class="pt-3 text-[20px] text-gray-600 text-center">
+            Join millions of customers on the best crypto platform for low fees.
+            Sign up today and buy your first crypto in as little as 2 minutes.
+          </p>
+          <div
+            class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 items-center pt-10"
+          >
+            <article class="border-[1px] p-4 rounded-lg h-72">
+              <p>
+                So I am new in learning the crypto market and I feel, though
+                this is a good place to start huge variety of tokens to choose
+                from. So far it's been nice to understand this new market.
+                Thanks to this platform and many others.
+              </p>
+              <div class="pt-8">
+                <p>Mike</p>
+                <p class="text-gray-500">iOS User</p>
+              </div>
+            </article>
+            <article class="border-[1px] p-4 rounded-lg h-72">
+              <p>
+                By far the best customer service in crypto. No company is
+                perfect. However if you run into an issue, CS acts as Angels and
+                will lend you support with in a reasonable amount of time!
+              </p>
+              <div class="pt-14">
+                <p>Ardel</p>
+                <p class="text-gray-500">iOS User</p>
+              </div>
+            </article>
+            <article class="border-[1px] p-4 rounded-lg h-72">
+              <p>
+                The app is easy to use. I am not tech-savvy at all. And I am
+                easily able to work my way through it. Thanks to the developers.
+              </p>
+              <div class="pt-20">
+                <p>Larry</p>
+                <p class="text-gray-500">iOS User</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of CryptoIsCalling -->
+
+    <!-- Value Proposition -->
+    <section class="pt-20">
+      <div class="max-w-[1280px] m-auto px-4">
+        <div>
+          <h2 class="md:text-[34px] text-[27px] font-medium text-center">
+            Value Proposition
+          </h2>
+          <div class="grid md:grid-cols-2 grid-cols-1 gap-4 items-center pt-10">
+            <article class="border-[1px] p-4 rounded-lg">
+              <div class="flex md:flex-row flex-col md:justify-start justify-center items-center md:text-start text-center gap-4">
+                <svg
+                  class="md:w-[200px] w-[100px]"
+                  viewBox="0 0 64 64"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    opacity="0.15"
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M8 5.3335H56V42.6667V42.6668H55.9998L32 58.6667L8.00025 42.6668H8V42.6667V5.3335ZM18.6657 13.1769H30.666V33.3102L29.3992 34.5771L18.6657 23.8436V13.1769ZM33.3327 13.1769V33.3102L34.5992 34.5767L45.3324 23.8436V13.1769H33.3327Z"
+                    fill="#929AA5"
+                  ></path>
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M31.9993 45.3102C37.154 45.3102 41.3327 41.1315 41.3327 35.9769C41.3327 30.8222 37.154 26.6436 31.9993 26.6436C26.8447 26.6436 22.666 30.8222 22.666 35.9769C22.666 41.1315 26.8447 45.3102 31.9993 45.3102ZM31.9997 31.9767L27.9997 35.9767L31.9997 39.9767L35.9997 35.9767L31.9997 31.9767Z"
+                    fill="#F0B90B"
+                  ></path>
+                </svg>
+                <div class="">
+                  <h2 class="pb-4 text-[23px] font-medium">
+                    Unparalleled trading products & services
+                  </h2>
+                  <p>
+                    Access to over 250+ Futures & Options contracts with a wide
+                    range of trading tools, margin modes, and 24/7 global expert
+                    customer support.More
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="border-[1px] p-4 rounded-lg">
+              <div class="flex md:flex-row flex-col md:justify-start justify-center items-center md:text-start text-center gap-4">
+                <svg
+                  class="md:w-[200px] w-[100px]"
+                  viewBox="0 0 64 64"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    opacity="0.15"
+                    x="5.33301"
+                    y="45.3335"
+                    width="15.9997"
+                    height="13.3333"
+                    fill="#929AA5"
+                  ></rect>
+                  <rect
+                    opacity="0.5"
+                    x="21.333"
+                    y="26.667"
+                    width="21.3333"
+                    height="31.9995"
+                    fill="#929AA5"
+                  ></rect>
+                  <rect
+                    opacity="0.15"
+                    x="42.666"
+                    y="37.3335"
+                    width="16.0004"
+                    height="21.3333"
+                    fill="#929AA5"
+                  ></rect>
+                  <path
+                    d="M32 5.33398L40 13.334L32 21.334L24 13.334L32 5.33398Z"
+                    fill="#F0B90B"
+                  ></path>
+                </svg>
+                <div class="">
+                  <h2 class="pb-4 text-[23px] font-medium">
+                    Ultra competitive pricing
+                  </h2>
+                  <p>
+                    Trade crypto Futures with the lowest transaction fees on the
+                    market and the tightest bid/ask spread.More
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="border-[1px] p-4 rounded-lg">
+              <div class="flex md:flex-row flex-col md:justify-start justify-center items-center md:text-start text-center gap-4">
+                <svg
+                  class="md:w-[200px] w-[50px]"
+                  viewBox="0 0 64 64"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    opacity="0.15"
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M58.6667 10.5825H16V18.6668H26.667V21.3335V36.0003H58.6667V10.5825Z"
+                    fill="#929AA5"
+                  ></path>
+                  <path
+                    opacity="0.15"
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M5.33398 21.333H26.6673V23.6187H5.33398V21.333ZM5.33398 23.6188H26.6673V51.0472V51.0474V53.3329H5.33398V51.0474V51.0472V23.6188Z"
+                    fill="#929AA5"
+                  ></path>
+                  <rect
+                    opacity="0.5"
+                    x="16"
+                    y="7.91602"
+                    width="42.6663"
+                    height="2.66667"
+                    fill="#929AA5"
+                  ></rect>
+                  <rect
+                    opacity="0.5"
+                    x="29.333"
+                    y="49.334"
+                    width="16"
+                    height="4"
+                    fill="#929AA5"
+                  ></rect>
+                  <path
+                    opacity="0.5"
+                    d="M40.0003 41.334L40.0003 49.334H34.667L34.667 41.334L40.0003 41.334Z"
+                    fill="#929AA5"
+                  ></path>
+                  <rect
+                    opacity="0.5"
+                    x="5.33398"
+                    y="18.667"
+                    width="21.3333"
+                    height="2.66667"
+                    fill="#929AA5"
+                  ></rect>
+                  <rect
+                    opacity="0.5"
+                    x="5.33398"
+                    y="53.3335"
+                    width="21.3333"
+                    height="2.66667"
+                    fill="#929AA5"
+                  ></rect>
+                  <rect
+                    width="2.66667"
+                    height="8"
+                    transform="matrix(0.707107 -0.707107 -0.707107 -0.707107 14.1152 42.9902)"
+                    fill="#F0B90B"
+                  ></rect>
+                  <rect
+                    width="2.66667"
+                    height="13.3333"
+                    transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 23.5439 33.5625)"
+                    fill="#F0B90B"
+                  ></rect>
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M26.667 27.2915H30V19.2915H26.667V21.3333V27.2915ZM39.3333 19.2917H35.3333V27.2917H39.3333V19.2917ZM44.6667 19.2917H48.6667V27.2917H44.6667V19.2917Z"
+                    fill="#F0B90B"
+                  ></path>
+                  <path
+                    opacity="0.5"
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M26.667 41.3338H58.6663V36.0005H26.667V41.3338Z"
+                    fill="#929AA5"
+                  ></path>
+                </svg>
+                <div class="">
+                  <h2 class="pb-4 text-[23px] font-medium">
+                    Trade seamlessly via any platform
+                  </h2>
+                  <p>
+                    Trade via our user-focused and reliable range of web, app,
+                    desktop and api trading platforms.More
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="border-[1px] p-4 rounded-lg">
+              <div class="flex md:flex-row flex-col md:justify-start justify-center items-center md:text-start text-center gap-4">
+                <svg
+                  class="md:w-[200px] w-[100px]"
+                  viewBox="0 0 64 64"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    opacity="0.15"
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M10.6445 10.667H18.6445V18.667H10.6445V10.667ZM10.6445 45.3337H18.6445V53.3337H10.6445V45.3337ZM53.3112 10.667H45.3112V18.667H53.3112V10.667ZM45.3112 45.3337H53.3112V53.3337H45.3112V45.3337Z"
+                    fill="#929AA5"
+                  ></path>
+                  <path
+                    opacity="0.5"
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M31.9994 5.33398L37.6563 10.9908L31.9994 16.6477L26.3426 10.9908L31.9994 5.33398ZM10.9899 26.3433L16.6467 32.0001L10.9899 37.657L5.33301 32.0001L10.9899 26.3433ZM58.6661 32.0001L53.0093 26.3433L47.3524 32.0001L53.0093 37.657L58.6661 32.0001ZM31.9994 47.3536L37.6563 53.0105L31.9994 58.6673L26.3426 53.0105L31.9994 47.3536Z"
+                    fill="#929AA5"
+                  ></path>
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M44 32C44 25.3726 38.6274 20 32 20C25.3726 20 20 25.3726 20 32C20 38.6274 25.3726 44 32 44C38.6274 44 44 38.6274 44 32ZM32 37.3333L26.6667 32L32 26.6667L37.3333 32L32 37.3333Z"
+                    fill="#F0B90B"
+                  ></path>
+                </svg>
+                <div class="">
+                  <h2 class="pb-4 text-[23px] font-medium">
+                    Industry-Leading Execution & Liquidity
+                  </h2>
+                  <p>
+                    Binance Futures is built with an industry-leading matching
+                    engine that can support high transactions per second to
+                    enable the best market execution and liquidity.More
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of Value Proposition -->
+
+    <!-- footer -->
+    <footer class="bg-black mt-20">
+      <div class="max-w-[1280px] m-auto px-4 text-white">
+        <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 py-10">
+          <article>
+            <h2 class="py-6 text-[20px] font-medium">Company</h2>
+            <div class="flex flex-col gap-4 text-gray-400">
+              <a href="#" class="hover:text-white">About Us</a>
+              <a href="#" class="hover:text-white">Trust</a>
+              <a href="#" class="hover:text-white">Compliance</a>
+              <a href="#" class="hover:text-white">Licenses</a>
+              <a href="#" class="hover:text-white">Careers</a>
+              <a href="#" class="hover:text-white">Announcements</a>
+            </div>
+          </article>
+          <article>
+            <h2 class="py-6 text-[20px] font-medium">Products</h2>
+            <div class="flex flex-col gap-4 text-gray-400">
+              <a href="#" class="hover:text-white">Buy & Sell</a>
+              <a href="#" class="hover:text-white">Convert</a>
+              <a href="#" class="hover:text-white">Spot Trading</a>
+              <a href="#" class="hover:text-white">OTC</a>
+              <a href="#" class="hover:text-white">Staking</a>
+              <a href="#" class="hover:text-white">Play</a>
+            </div>
+          </article>
+          <article>
+            <h2 class="py-6 text-[20px] font-medium">Support</h2>
+            <div class="flex flex-col gap-4 text-gray-400">
+              <a href="#" class="hover:text-white">Help Center</a>
+              <a href="#" class="hover:text-white">Tax</a>
+              <a href="#" class="hover:text-white">Fees</a>
+              <a href="#" class="hover:text-white">Trading Rules</a>
+              <a href="#" class="hover:text-white">Trade Limits</a>
+              <a href="#" class="hover:text-white">Listing on</a>
+            </div>
+          </article>
+          <article>
+            <h2 class="py-6 text-[20px] font-medium">Learn</h2>
+            <div class="flex flex-col gap-4 text-gray-400">
+              <a href="#" class="hover:text-white">Crypto Prices </a>
+              <a href="#" class="hover:text-white">Crypto Education</a>
+              <a href="#" class="hover:text-white">Crypto For Beginners</a>
+              <a href="#" class="hover:text-white">What is a Blockchain?</a>
+              <a href="#" class="hover:text-white">What is Ethereum?</a>
+            </div>
+            <div class="mt-4 text-[20px] flex gap-3 text-gray-400">
+              <i class="fa-brands fa-facebook hover:text-white"></i>
+              <i class="fa-brands fa-linkedin hover:text-white"></i>
+              <i class="fa-brands fa-x-twitter hover:text-white"></i>
+              <i class="fa-brands fa-telegram hover:text-white"></i>
+              <i class="fa-brands fa-youtube hover:text-white"></i>
+              <i class="fa-brands fa-tiktok hover:text-white"></i>
+              <i class="fa-brands fa-discord hover:text-white"></i>
+            </div>
+          </article>
+        </div>
+      </div>
+    </footer>
+    <!-- end of footer -->
+
+    <!-- end of header -->
+    <script src="js/app.js"></script>
+  </body>
+</html>
+
